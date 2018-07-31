@@ -26,36 +26,13 @@ module.exports = (grunt) => {
         src: [
         'reviews/public/dist/bundle.js',
         'appointments/public/dist/bundle.js',
-        'image-carousel/client/bundle.js',
+        'image-carousel/client/dist/bundle.js',
         'maps_info/client/dist/bundle.js',
         ],
 
         dest: 'proxy/public/bundle.js',
       },
     },
-    // run: {
-    //   burkeServer: {
-    //     options: {
-    //       wait: false,
-    //       keepalive: true,
-    //     },
-    //     args: [
-    //     'reviews/server/server.js',
-    //     'appointments/server/server.js',
-    //     ],
-    //   },
-    // },
-    // express: {
-    //   options: {
-    //     keepalive: true,
-    //     wait: false,
-    //   },
-    //   prod: {
-    //     options: {
-    //       script: 'appointments/server/server.js',
-    //     },
-    //   },
-    // },
 
   });
   grunt.loadNpmTasks('grunt-express-server');
