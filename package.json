@@ -2,32 +2,27 @@
   "name": "burke-proxy",
   "version": "1.0.0",
   "description": "",
-  "main": "./server/server.js",
-  "dependencies": {
-    "express": "^4.16.3",
-    "morgan": "^1.9.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "webpack": "^4.16.3"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-exec": "^3.0.0",
-    "grunt-express-server": "^0.5.4",
-    "grunt-run": "^0.8.1",
-    "grunt-webpack": "^3.1.2"
-  },
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dev-Stars/burke-proxy.git"
+    "url": "git+https://github.com/Dev-Stars/jordan_proxy.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Burke",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dev-Stars/burke-proxy/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Dev-Stars/burke-proxy#readme"
+  "homepage": "",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
