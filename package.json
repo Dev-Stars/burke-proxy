@@ -5,11 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dev-Stars/jordan_proxy.git"
+    "url": ""
   },
   "author": "Burke",
   "license": "MIT",
@@ -17,11 +17,7 @@
     "url": ""
   },
   "homepage": "",
-  "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-watch": "^1.1.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "express": "^4.16.3"
   }

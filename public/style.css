@@ -1,8 +1,24 @@
 
-#topLevel{
-  display: flex;
-  flex-direction: flex-start;
-  align-items: middle;
-  padding: 50px;
+#app  {
+ position: absolute;
+ left: 20px;
+ top: 250px;
 }
 
+#Burke {
+  position: absolute;
+  left: 350px;
+  top: 500px;
+}
+
+#image {
+ position: absolute;
+ left: 350px;
+ top: 230px;
+}
+
+#appointment {
+position: absolute;
+top: 1100px;
+left: 40px;
+}
